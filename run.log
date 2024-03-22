@@ -1,0 +1,39 @@
+[INFO][2024-03-21 11:09:21][config.py:254] - [INIT] load config: {'channel_type': 'wx', 'model': 'gpt-4', 'open_ai_api_key': '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', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': ['bot', '@bot'], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['@bot'], 'group_name_white_list': ['ChatGPT测试群', 'ChatGPT测试群2'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '', 'linkai_app_code': ''}
+[INFO][2024-03-21 11:09:21][config.py:204] - [Config] User datas file not found, ignore.
+[WARNING][2024-03-21 11:09:23][audio_convert.py:9] - import pysilk failed, wechaty voice message will not be supported.
+[INFO][2024-03-21 11:09:24][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-03-21 11:09:24][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-03-21 11:09:24][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins/role
+[INFO][2024-03-21 11:09:24][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins/linkai
+[INFO][2024-03-21 11:09:24][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins/dungeon
+[INFO][2024-03-21 11:09:24][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins/bdunit
+[INFO][2024-03-21 11:09:24][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins/finish
+[INFO][2024-03-21 11:09:24][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins/godcmd
+[INFO][2024-03-21 11:09:24][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins/hello
+[INFO][2024-03-21 11:09:24][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins/banwords
+[INFO][2024-03-21 11:09:24][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins/keyword
+[INFO][2024-03-21 11:09:25][plugin_manager.py:41] - Plugin tool_v0.5 registered, path=./plugins/tool
+[INFO][2024-03-21 11:09:25][plugin_manager.py:123] - Plugin GODCMD not found in pconfig, adding to pconfig...
+[INFO][2024-03-21 11:09:25][plugin_manager.py:123] - Plugin KEYWORD not found in pconfig, adding to pconfig...
+[INFO][2024-03-21 11:09:25][plugin_manager.py:123] - Plugin BANWORDS not found in pconfig, adding to pconfig...
+[INFO][2024-03-21 11:09:25][plugin_manager.py:123] - Plugin LINKAI not found in pconfig, adding to pconfig...
+[INFO][2024-03-21 11:09:25][plugin_manager.py:123] - Plugin TOOL not found in pconfig, adding to pconfig...
+[INFO][2024-03-21 11:09:25][plugin_manager.py:123] - Plugin ROLE not found in pconfig, adding to pconfig...
+[INFO][2024-03-21 11:09:25][plugin_manager.py:123] - Plugin DUNGEON not found in pconfig, adding to pconfig...
+[INFO][2024-03-21 11:09:25][plugin_manager.py:123] - Plugin BDUNIT not found in pconfig, adding to pconfig...
+[INFO][2024-03-21 11:09:25][plugin_manager.py:123] - Plugin HELLO not found in pconfig, adding to pconfig...
+[INFO][2024-03-21 11:09:25][plugin_manager.py:123] - Plugin FINISH not found in pconfig, adding to pconfig...
+[INFO][2024-03-21 11:09:25][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为0247。
+[INFO][2024-03-21 11:09:25][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-03-21 11:09:25][keyword.py:40] - [keyword] {}
+[INFO][2024-03-21 11:09:25][keyword.py:42] - [keyword] inited.
+[WARNING][2024-03-21 11:09:25][banwords.py:54] - [Banwords] init failed, ignore or see https://github.com/zhayujie/chatgpt-on-wechat/tree/master/plugins/banwords .
+[WARNING][2024-03-21 11:09:25][plugin_manager.py:150] - Failed to init BANWORDS, diabled. [Errno 2] No such file or directory: '/Users/vito/Desktop/coding/chatgpt/chatgpt-on-wechat/plugins/banwords/banwords.txt'
+[INFO][2024-03-21 11:09:25][linkai.py:33] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-03-21 11:09:35][tool.py:28] - [tool] inited
+[INFO][2024-03-21 11:09:35][role.py:69] - [Role] inited
+[INFO][2024-03-21 11:09:35][dungeon.py:56] - [Dungeon] inited
+[WARNING][2024-03-21 11:09:35][bdunit.py:42] - [BDunit] init failed, ignore 
+[WARNING][2024-03-21 11:09:35][plugin_manager.py:150] - Failed to init BDUNIT, diabled. config.json not found
+[INFO][2024-03-21 11:09:35][hello.py:24] - [Hello] inited
+[INFO][2024-03-21 11:09:35][finish.py:23] - [Finish] inited
